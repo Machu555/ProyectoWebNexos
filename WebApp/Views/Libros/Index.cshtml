@@ -1,0 +1,66 @@
+﻿@using EntidadDTO;
+@{
+    ViewBag.Title = "Index";
+    List<LibrosDTO> libros = ViewBag.Libros;
+}
+
+<h3>Lista de libros</h3>
+
+<div>
+    <button type="button" onclick="location.href='@Url.Action("Registro","Libros")'" class="btn btn-primary">Registrar Libro</button>
+</div>
+
+<div class="form-group" style=" display: flex; margin-top: 10px; margin-bottom: 10px;">
+    <input type="text" class="form-control" id="PalabraTXT" placeholder="Ingrese palabra clave">
+
+    <select class="form-select" id="selectPalabraClave" title="select">
+        <option selected>--Seleccione criterio--</option>
+        <option value="1">Nombre Autor</option>
+        <option value="2">Titulo</option>
+        <option value="3">Año</option>
+    </select>
+    <button type="button" style="margin-left:10px;" onclick="ListarLibrosPalabra();" class="btn btn-primary">Buscar</button>
+
+</div>
+<table>
+</table>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Titulo</th>
+            <th scope="col">Año</th>
+            <th scope="col">Género</th>
+            <th scope="col">Páginas</th>
+            <th scope="col">Nombre Autor</th>
+
+        </tr>
+    </thead>
+    <tbody id="cuerpoTabla">
+        @{
+            if (libros.Count > 0)
+            {
+                foreach (var item in libros)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Titulo</td>
+                        <td>@item.Anio</td>
+                        <td>@item.Genero</td>
+                        <td>@item.Paginas</td>
+                        <td>@item.NombreCompleto</td>
+                    </tr>
+
+                }
+
+            }
+
+        }
+
+
+    </tbody>
+</table>
+
+@section scripts{
+    <script src="~/Scripts/Vistas/Libros/Index.js"></script>
+}

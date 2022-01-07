@@ -1,0 +1,14 @@
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\LogicaNegocio.dll.config
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\EntidadDTO.dll
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\System.Net.Http.Formatting.dll
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\EntidadDTO.pdb
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\bin\Debug\System.Net.Http.Formatting.xml
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

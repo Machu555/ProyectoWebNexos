@@ -1,0 +1,6 @@
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\EntidadDTO\bin\Debug\EntidadDTO.dll
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\EntidadDTO\bin\Debug\EntidadDTO.pdb
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\EntidadDTO\obj\Debug\EntidadDTO.csproj.CoreCompileInputs.cache
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\EntidadDTO\obj\Debug\EntidadDTO.dll
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\EntidadDTO\obj\Debug\EntidadDTO.pdb
+D:\Nexos Prueba\NexosProyecto2\PresentacionNexos\EntidadDTO\obj\Debug\EntidadDTO.csproj.AssemblyReference.cache

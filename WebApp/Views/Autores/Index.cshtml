@@ -1,0 +1,46 @@
+﻿@using EntidadDTO;
+@{
+
+    List<AutoresDTO> lista = ViewBag.Autores;
+    ViewBag.Title = "Index";
+
+}
+
+<h2>Lista de Autores</h2>
+
+<div>
+    <button type="button" onclick="location.href='@Url.Action("Registro","Autores")'" class="btn btn-primary">Registrar Autor</button>
+</div>
+<table>
+</table>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre Autor</th>
+            <th scope="col">Fecha Nacimiento</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Correo electrónico</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            if (lista.Count > 0)
+            {
+                foreach (var item in lista)
+                {
+                    <tr>
+                        <td>@item.AutorNombre</td>
+                        <td>@item.FechaNacimiento</td>
+                        <td>@item.Ciudad</td>
+                        <td>@item.CorreoElectronico</td>
+                    </tr>
+
+                }
+
+            }
+
+        }
+
+
+    </tbody>
+</table>
